@@ -1,0 +1,27 @@
+        /*BODY*/
+                   /* Push page content below navbar */
+body {
+  padding-top: 80px; /* adjust to navbar height */
+  background-color: color #234c58; 
+  color: #c9c2c2;
+  font-family: 'outfit', sans-serif;
+  opacity:60%;
+}
+h2{
+     font-family: 'playfair dislpay, serif';
+     text-align: center;
+}
+button .btn {
+  background-color: #234c58;
+  border: none;
+  color:  #c9c2c2;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+
+}
