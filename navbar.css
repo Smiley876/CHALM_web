@@ -6,14 +6,11 @@
   background-color: #0f1516;  /* matches navbar color */
 }
 #nav{
-  background-color:#0f1516;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  padding: 10px 20px;
-  position: fixed; /* flush at top */
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
+    position: fixed;
+    top: 0;
+   width: 100%;
+   background-color: #0f1516; /* or whatever your navbar color is */
+   z-index: 1000;
 }
 
 /*nav link*/
@@ -31,7 +28,7 @@
       font-weight: bold;
      
 }
-#navbar .navbar-brand img {
+#nav .navbar-brand img {
   display: block;
   vertical-align:top;
   line-height: 0;
@@ -42,16 +39,17 @@
   height: clamp(40px, 8vw, 100px);
   width: auto; 
 }
-#navbar .nav-item.dropdown:hover > .dropdown-menu {
+#nav .nav-item.dropdown:hover > .dropdown-menu {
   opacity: 1;
   visibility: visible;
 }
-#navbar .nav-link:hover {
+#nav .nav-link:hover {
   transition: color 0.3s ease;
     color: #5e524b!important; 
 }
-#navbar .nav-link.active {
+#nav .nav-link.active {
   border-bottom: 2px solid #5e524b ;
 }
+
 
            

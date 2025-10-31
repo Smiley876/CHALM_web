@@ -1,18 +1,19 @@
         /*BODY*/
                    /* Push page content below navbar */
 body {
-  padding-top: 80px; /* adjust to navbar height */
-  background-color: color #234c58; 
+  padding-top: 120px; /* adjust to navbar height */
   color: #c9c2c2;
   font-family: 'outfit', sans-serif;
-  opacity:60%;
+  background-color:  #234c58;
 }
-h2{
+
+h1{
      font-family: 'playfair dislpay, serif';
      text-align: center;
+     color: #c9c2c2;
 }
-button .btn {
-  background-color: #234c58;
+.btn {
+  background-color: #7F8C94;
   border: none;
   color:  #c9c2c2;
   padding: 10px 20px;
@@ -21,7 +22,60 @@ button .btn {
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
-  cursor: pointer;
+  cursor: url('cusor.png') 16 16, auto;;
   border-radius: 12px;
 
+}
+
+   /*CARDS*/
+.card-title{
+  font-family: 'playfair dislpay, serif';
+  text-align: center;
+  font-weight:bold;
+}
+.card-text{
+  font-family: 'outfit', sans-serif;
+  text-align: center;
+}
+
+.custom-btn {
+    background-color:#5e524b;
+     color: #c9c2c2;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'outfit', sans-serif;
+}
+.custom-btn:hover{
+   background-color: #c9c2c9;
+   color:#5e524b;
+
+}
+span{font-family: 'outfit', sans-serif;}
+
+/*FOOTER*/
+footer h5{
+   font-family: 'playfair dislpay, serif';
+    font-weight: bold;
+   color:#7f8c94 !important;
+}
+footer a {
+   font-family: 'outfit', sans-serif;
+}
+footer a.item {
+   color:#7f8c94 !important;
+   
+}
+footer a.item:hover {
+  transition: color 0.3s ease;
+    color: hwb(0 60% 40%) !important; 
+}
+i{
+  color:#7f8c94 !important;
+}
+footer p{
+   color:#7f8c94 !important;
 }
